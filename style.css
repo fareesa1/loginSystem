@@ -1,0 +1,33 @@
+body{
+    background-color:rgb(238, 238, 255);
+    display: flex;
+    justify-content: center;
+}
+
+input, textarea{
+ font-size: 30px;
+ margin: 30px;
+ border-width: 0px;
+ padding: 10px;
+}
+
+.form-container{
+margin: 200px;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: darkgrey;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 6px 7px rgba(3, 3, 3, 0.637);
+} 
+
+button{
+    background-color: coral;
+    font-size: 20px;
+    padding: 10px;
+ 
+}
+p{
+    align-self: center;
+}

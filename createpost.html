@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-database.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div style="margin-left: 100px;" >
+    <p style="font-size: 50px;text-align: center;" >SHARE YOU IDEAS</p>
+<img src="https://i.pinimg.com/originals/d3/46/4a/d3464a4351fdf340ccb6bb37c281381a.gif" alt="">
+</div>
+    <div style="background-color: rgba(255, 255, 0, 0.616); " class="form-container">
+    <input type="title" id="input_title" placeholder="Enter title for the post">
+    <textarea rows = "5" cols = "40" id="input_description" name = "description">
+     </textarea>
+    <button style="border-radius: 20px;" type="button" onclick="addUserData()"  >Create Post</button>
+</div>  
+    <p id="name"></p>
+</body>
+
+</html>
